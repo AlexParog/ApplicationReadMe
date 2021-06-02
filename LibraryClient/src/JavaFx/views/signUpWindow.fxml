@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.controller.SignUpWindowController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="103.0" style="-fx-background-color: C0C0C0;">
+            <children>
+                <Label layoutX="-197.0" layoutY="52.0" prefHeight="124.0" prefWidth="497.0" rotate="-90.0" text="ReadMe" AnchorPane.bottomAnchor="206.0" AnchorPane.leftAnchor="-197.0" AnchorPane.rightAnchor="-197.0" AnchorPane.topAnchor="52.0">
+                    <font>
+                        <Font name="Segoe UI Light" size="96.0" />
+                    </font></Label>
+            </children></AnchorPane>
+        <Label layoutX="309.0" layoutY="14.0" style="-fx-background-color: FFFFFF;" text="Registration.">
+            <font>
+                <Font name="Times New Roman" size="34.0" />
+            </font></Label>
+        <Label layoutX="274.0" layoutY="64.0" style="-fx-background-color: FFFFFF;" text="Are you ready for knowledge?" textFill="DARKGRAY">
+            <font>
+                <Font name="Times New Roman" size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="signUpButton" layoutX="284.0" layoutY="327.0" mnemonicParsing="false" onAction="#signUpAction" style="-fx-background-color: #000000;" text="OK" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI Light" size="19.0" />
+            </font>
+        </Button>
+        <TextField fx:id="loginRegistrationTextField" layoutX="281.0" layoutY="98.0" prefHeight="25.0" prefWidth="230.0" promptText="Login">
+            <font>
+                <Font name="Segoe UI Light" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="CityRegistrationTextField" layoutX="281.0" layoutY="243.0" prefHeight="25.0" prefWidth="230.0" promptText="City">
+            <font>
+                <Font name="Segoe UI Light" size="14.0" />
+            </font>
+        </TextField>
+      <TextField fx:id="FirstNameRegistrationTextField" layoutX="281.0" layoutY="134.0" prefHeight="25.0" prefWidth="230.0" promptText="First Name">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LastNameRegistrationTextField" layoutX="281.0" layoutY="170.0" prefHeight="25.0" prefWidth="230.0" promptText="Last Name">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TelephoneRegistrationTextField" layoutX="281.0" layoutY="207.0" prefHeight="25.0" prefWidth="230.0" promptText="Telephone">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="PasswordRegistrationTextField" layoutX="281.0" layoutY="279.0" prefHeight="25.0" prefWidth="230.0" promptText="Password">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="cancelButton" layoutX="431.0" layoutY="327.0" mnemonicParsing="false" onAction="#cancelAction" style="-fx-background-color: #000000;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="19.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

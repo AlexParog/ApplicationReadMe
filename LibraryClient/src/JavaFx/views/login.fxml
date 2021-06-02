@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.controller.LoginController">
+   <children>
+      <Label layoutX="34.0" layoutY="26.0" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: FFFFFF;" text="README" textFill="#a8a7a7" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Segoe UI Light" size="22.0" />
+         </font></Label>
+      <Label layoutX="196.0" layoutY="167.0" prefHeight="66.0" prefWidth="330.0" style="-fx-background-color: FFFFFF;" text="We are ReadMe." textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="223.0" style="-fx-background-color: FFFFFF;" text="Together." textFill="#a8a7a7">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <HBox layoutX="574.0" layoutY="20.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+         <children>
+            <Button fx:id="loginSignIn" mnemonicParsing="false" onAction="#signInAction" style="-fx-background-color: FFFFFF;" text="Sign In">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="loginSignUp" mnemonicParsing="false" onAction="#signUpAction" style="-fx-background-color: FFFFFF;" text="Sign Up">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

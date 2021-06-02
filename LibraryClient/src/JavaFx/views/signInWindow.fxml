@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.controller.SignInWindowController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="103.0" style="-fx-background-color: C0C0C0;">
+         <children>
+            <Label layoutX="-197.0" layoutY="52.0" prefHeight="124.0" prefWidth="497.0" rotate="-90.0" text="ReadMe" AnchorPane.bottomAnchor="206.0" AnchorPane.leftAnchor="-197.0" AnchorPane.rightAnchor="-197.0" AnchorPane.topAnchor="52.0">
+               <font>
+                  <Font name="Segoe UI Light" size="96.0" />
+               </font></Label>
+         </children></AnchorPane>
+      <Label layoutX="316.0" layoutY="110.0" style="-fx-background-color: FFFFFF;" text="Welcome.">
+         <font>
+            <Font name="Times New Roman" size="38.0" />
+         </font></Label>
+      <Label layoutX="367.0" layoutY="153.0" style="-fx-background-color: FFFFFF;" text="Again." textFill="DARKGRAY">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="signInButton" layoutX="348.0" layoutY="288.0" mnemonicParsing="false" onAction="#signInAction" style="-fx-background-color: FFFFFF;" text="Sign In">
+         <font>
+            <Font name="Segoe UI Light" size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="loginTextField" layoutX="280.0" layoutY="200.0" prefHeight="25.0" prefWidth="230.0" promptText="Login">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="passwordTextField" layoutX="280.0" layoutY="248.0" prefHeight="25.0" prefWidth="230.0" promptText="Password">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="cancelSignInButton" layoutX="365.0" layoutY="336.0" mnemonicParsing="false" onAction="#cancelSignInAction" style="-fx-background-color: FFFFFF;" text="Cancel">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
